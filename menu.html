@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="design.css" rel="stylesheet">
+  <script defer src="game.js"></script>
+  <title>Tina's timeline | Life text simulator</title>
+</head>
+<body>
+    <!-- Title -->
+    <center>
+    <h1><p style= "color:red; font-family: sans-serif;">TINA'S TIMELINE</p><p style = "font-family: sans-serif;">MENU</p></h1>
+    <!-- Menu buttons -->
+    <button onclick="location.href='main.html'" class="btn">START NEW LIFE</button>
+    <button onclick="loadlife();" class="btn">LOAD SAVED LIFE</button>
+    <button onclick="options();" class="btn">OPTIONS</button>
+    <button onclick="on();" class="btn">INSTRUCTIONS</button>
+    <div id="overlay" onclick="off()">
+        <div id="text">INSTRUCTIONS
+            <br>- You will begin a new life at the age of 0. From then you will proceed to live each year to the fullest! (or not)
+            <br>- You are able to age up by clicking the age up button.
+            <br>- Your aim is to leave a legacy before your life ends.</div>
+      </div>
+    </center>   
+    <!-- Sound button -->
+    <div class="bottomright"><input type="image" src="https://static.thenounproject.com/png/904739-200.png"></div>
+    <!-- Exit button -->
+    <div class="bottomleft"><button onclick="location.href='home.html'"
+        class="btn"><b>BACK</b></button></div>
+</body>
+</html>
+
+
